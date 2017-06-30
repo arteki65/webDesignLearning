@@ -1,0 +1,40 @@
+/* ---------- BUTTONS ---------- */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #2ecc71;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    cursor: pointer;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #28b062;
+    border-color: #28b062;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #2ecc71;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #28b062;
+    border-color: #28b062;
+    color: #fff;
+}
