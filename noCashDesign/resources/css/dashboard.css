@@ -6,15 +6,13 @@
 body {
     height: 100vh;
     background-color: #f4f4f4;
-}
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    font-size: 17px;
 }
 
 .total-amount {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .total-amount span {
@@ -30,15 +28,11 @@ header {
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #2ecc71;
+    border-bottom: 2px solid #2ecc71;
 }
 
 .section-dashboard .btn {
     padding: 7px 10px;
     font-size: 80%;
     margin-left: 20px;
-}
-
-.section-dashboard {
-    padding-top: 30px;
 }
