@@ -28,7 +28,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #2ecc71;
+    border-bottom: 2px solid #2ecc71;
 }
 
 .section-dashboard .btn {
@@ -52,6 +52,12 @@ body {
 .widget-part:first-child,
 .widget-part:last-child {
     text-align: center;
+}
+
+.widget-part:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .widget-part:last-child {
@@ -87,4 +93,14 @@ body {
 
 .possible-to-spent span {
     color: #2ecc71;
+}
+
+footer .row {
+    border-top: 2px solid #2ecc71;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 80%;
 }
