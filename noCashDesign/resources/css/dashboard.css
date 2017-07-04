@@ -1,6 +1,6 @@
 @import url(basic-setup.css);
 @import url(reusable/headings.css);
-@import url(naviagtion.css);
+@import url(reusable/naviagtion.css);
 @import url(reusable/buttons.css);
 
 body {
@@ -35,4 +35,56 @@ body {
     padding: 7px 10px;
     font-size: 80%;
     margin-left: 20px;
+}
+
+.widget-box {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.widget-part {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.widget-part:first-child,
+.widget-part:last-child {
+    text-align: center;
+}
+
+.widget-part:last-child {
+    border: 0;
+}
+
+.widget-details-data {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.widget-details-data .row div:first-child {
+    text-align: left;
+}
+
+.widget-details-data .row div:last-child {
+    text-align: right;
+}
+
+.widget-summary {
+    font-size: 300%;
+    margin-bottom: 10px;
+    color: #2ecc71;
+}
+
+.widget-summary span {
+    font-size: 30%;
+}
+
+.possible-to-spent {
+    font-size: 80%;
+}
+
+.possible-to-spent span {
+    color: #2ecc71;
 }
