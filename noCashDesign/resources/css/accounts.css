@@ -2,3 +2,51 @@
 @import url(reusable/headings.css);
 @import url(reusable/naviagtion.css);
 @import url(reusable/buttons.css);
+@import url(reusable/footer.css);
+@import url(reusable/box.css);
+
+body {
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.section-accounts {
+    margin-top: 40px;
+}
+
+.box-part h4 {
+    margin-bottom: 0;
+}
+
+.delete-icon {
+    font-size: 200%;
+    height: 20px;
+    margin-top: -10px !important;
+}
+
+.delete-icon>i {
+    cursor: pointer;
+}
+
+.account-details {
+    text-align: center;
+    font-size: 90%;
+    transition: background-color 0.2s;
+}
+
+.account-details:hover {
+    background-color: #e6e6e6;
+}
+
+.account-balance {
+    color: #2ecc71;
+}
+
+.account-balance-negative {
+    color: #e74c3c;
+}
+
+.box-part .row .col {
+    margin-top: 0;
+    margin-bottom: 0;
+}

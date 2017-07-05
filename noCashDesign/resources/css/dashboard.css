@@ -2,11 +2,12 @@
 @import url(reusable/headings.css);
 @import url(reusable/naviagtion.css);
 @import url(reusable/buttons.css);
+@import url(reusable/footer.css);
+@import url(reusable/box.css);
 
 body {
     height: 100vh;
     background-color: #f4f4f4;
-    font-size: 20px;
 }
 
 .total-amount {
@@ -35,33 +36,6 @@ body {
     padding: 7px 10px;
     font-size: 80%;
     margin-left: 20px;
-}
-
-.widget-box {
-    background-color: #fff;
-    border-radius: 5px;
-    margin: auto;
-    box-shadow: 0 2px 2px #efefef;
-}
-
-.widget-part {
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.widget-part:first-child,
-.widget-part:last-child {
-    text-align: center;
-}
-
-.widget-part:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.widget-part:last-child {
-    border: 0;
 }
 
 .widget-details-data {
@@ -93,14 +67,4 @@ body {
 
 .possible-to-spent span {
     color: #2ecc71;
-}
-
-footer .row {
-    border-top: 2px solid #2ecc71;
-    padding: 20px;
-}
-
-footer p {
-    text-align: center;
-    font-size: 80%;
 }

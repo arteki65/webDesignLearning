@@ -11,6 +11,10 @@
     margin-left: 40px;
 }
 
+.main-nav li:first-child {
+    margin: 0;
+}
+
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
