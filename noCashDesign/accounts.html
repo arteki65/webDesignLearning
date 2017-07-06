@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>(No)Cash</title>
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
@@ -13,6 +15,7 @@
         <header>
             <nav>
                 <div class="row">
+                    <a class="mobile-nav-icon js--close-mobile-nav-icon"><i class="ion-navicon-round"></i></a>
                     <ul class="main-nav">
                         <li><a href="dashboard.html">Dashboard</a></li>
                         <li><a href="accounts.html" id="nav-active-el">Accounts</a></li>
@@ -22,6 +25,10 @@
                     </ul>
                 </div>
             </nav>
+            <div class="row mobile-current-nav">
+                <p>Accounts</p>
+                <a class="open-mobile-nav-icon js--open-mobile-nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
         </header>
         
         <section class="section-accounts">
@@ -103,5 +110,10 @@
                 <p>Copyright &copy; 2017 by Arkadiusz Aptewicz. All rights reserved.</p>
             </div>
         </footer>
+        
+        <div id="body-mask"></div>
+        
+        <script src="vendors/js/jquery-3.2.1.min.js"></script>
+        <script src="resources/js/navigation.js"></script>
     </body>
 </html>
