@@ -46,6 +46,10 @@
     .mobile-current-nav {
         display: block;
     }
+    
+    .col {
+        width: 100%;
+    }
 }
 
 /* Small phones: from 0 to 480px */
@@ -53,5 +57,19 @@
     nav {
         left: 100%;
         width: 100%;
+    }
+    
+    .mobile-widgets-data-label {
+        width: 70%;
+        margin: 3px 0;
+    }
+    
+    .mobile-widgets-data-value {
+        width: 30%;
+        margin: 3px 0;
+    }
+    
+    .widgets-row .col:last-child .box {
+        margin-top: 15px;
     }
 }
