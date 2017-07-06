@@ -4,6 +4,7 @@
 @import url(reusable/buttons.css);
 @import url(reusable/footer.css);
 @import url(reusable/box.css);
+@import url(reusable/queries.css);
 
 body {
     height: 100vh;

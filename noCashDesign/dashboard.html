@@ -12,7 +12,8 @@
     <body>
         <header>
             <nav>
-                <div class="row">
+                <div class="row clearfix">
+                    <a class="mobile-nav-icon js--close-mobile-nav-icon"><i class="ion-navicon-round"></i></a>
                     <ul class="main-nav">
                         <li><a href="#" id="nav-active-el">Dashboard</a></li>
                         <li><a href="accounts.html">Accounts</a></li>
@@ -22,6 +23,10 @@
                     </ul>
                 </div>
             </nav>
+            <div class="row mobile-current-nav">
+                <p>Dashboard</p>
+                <a class="open-mobile-nav-icon js--open-mobile-nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
         </header>
         
             <section class="section-dashboard">
@@ -125,11 +130,14 @@
                     </div>
                 </div>
             </section>
-        
+            
         <footer>
             <div class="row">
                 <p>Copyright &copy; 2017 by Arkadiusz Aptewicz. All rights reserved.</p>
             </div>
         </footer>
+        
+        <script src="vendors/js/jquery-3.2.1.min.js"></script>
+        <script src="resources/js/navigation.js"></script>
     </body>
 </html>
