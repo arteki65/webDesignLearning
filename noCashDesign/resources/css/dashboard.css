@@ -33,10 +33,13 @@ body {
     border-bottom: 2px solid #2ecc71;
 }
 
-.section-dashboard .btn {
-    padding: 7px 10px;
-    font-size: 80%;
+.row.action-buttons .btn {
     margin-left: 20px;
+}
+
+.section-dashboard .btn {
+    font-size: 80%;
+    padding: 7px 10px;
 }
 
 .widget-details-data {
