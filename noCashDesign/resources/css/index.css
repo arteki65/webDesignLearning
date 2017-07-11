@@ -32,14 +32,6 @@ header {
     height: 100vh;
 }
 
-.hero-text-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1140px;
-}
-
-.hero-text-box .btn-full {
+.center-box .btn-full {
     margin-right: 15px;
 }
