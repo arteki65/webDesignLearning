@@ -1,5 +1,9 @@
 /* Big tablet to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
 }
 
 /* less than row width */
@@ -10,7 +14,8 @@
 }
 
 /* Small tablet to big tablet: from 768 to 1024px */
-@media only screen and (max-width: 1023px) {    
+@media only screen and (max-width: 1023px) {
+    
     .mobile-widgets-data-label {
         width: 70%;
         margin: 3px 0;
@@ -20,6 +25,8 @@
         width: 30%;
         margin: 3px 0;
     }
+    
+    body { font-size: 18px; }
 }
 
 /* Small phones to small tablets: rom 481 to 767px */
