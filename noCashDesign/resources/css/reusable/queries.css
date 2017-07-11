@@ -2,12 +2,15 @@
 @media only screen and (max-width: 1200px) {
 }
 
-/* Small tablet to big tablet: from 768 to 1024px */
-@media only screen and (max-width: 1023px) {
+/* less than row width */
+@media only screen and (max-width: 1170px) {
     .row {
         width: 95%;
     }
-    
+}
+
+/* Small tablet to big tablet: from 768 to 1024px */
+@media only screen and (max-width: 1023px) {    
     .mobile-widgets-data-label {
         width: 70%;
         margin: 3px 0;
@@ -88,8 +91,30 @@
     }
     
     /* accounts */
-    .th {
-        width: 23.8%
+    .mobile--accounts-header {
+        display: none;
+    }
+    
+    .mobile--span-1-of-2 {
+        width: 49.2%;
+    }
+    
+    .mobile--account-name {
+        text-align: left;
+    }
+    
+    .mobile--account-data {
+        text-align: right;
+    }
+    
+    .mobile--account-name .col:first-child,
+    .mobile--account-data .col:first-child {
+        margin-bottom: 10px !important;
+    }
+    
+    .box-part {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
