@@ -12,12 +12,12 @@ body {
 }
 
 .login-form {
-    opacity: 0.9;
-    background: #eee;
+    opacity: 0.95;
+    background: #f5f5f5;
     border-radius: 5px;
     width: 60%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 80px;
 }
 
 input[type=text],
@@ -36,4 +36,8 @@ textarea {
 
 input[type=submit] {
     font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.login-form .row:last-child {
+    text-align: center;
 }

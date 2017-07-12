@@ -125,6 +125,13 @@
         padding-left: 0;
         padding-right: 0;
     }
+    
+    /* login form */
+    .login-form { padding: 20px 40px; }
+    
+    .login-form input { margin-bottom: 10px; }
+    
+    .login-form input[type=submit] { margin-bottom: 0; }
 }
 
 /* Small phones: from 0 to 480px */
@@ -153,4 +160,7 @@
     .total-amount {
         margin-top: 30px !important;
     }
+    
+    /* login form */
+    .login-form { padding: 10px 20px; }
 }

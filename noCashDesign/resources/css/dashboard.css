@@ -5,6 +5,7 @@
 @import url(reusable/footer.css);
 @import url(reusable/box.css);
 @import url(reusable/queries.css);
+@import url(reusable/spinner.css);
 
 body {
     height: 100vh;
@@ -70,5 +71,14 @@ body {
 }
 
 .possible-to-spent span {
+    color: #2ecc71;
+}
+
+.box-part {
+    visibility: hidden;
+}
+
+.widget-data-loading {
+    font-size: 400%;
     color: #2ecc71;
 }
