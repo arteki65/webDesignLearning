@@ -1,0 +1,38 @@
+/*
+    Basic blue color: #3498db
+    Darker blue color: #217dbb
+*/
+
+/* -------------------------------------------------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------------------------------------------------- */
+@import "header.css";
+@import "components.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
