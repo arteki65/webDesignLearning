@@ -1,22 +1,10 @@
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./../img/header.jpg');
     background-size: cover;
     background-position: center;
-    /*    height: 100vh;*/
-    /*    background-attachment: fixed;*/
-    /*    position: relative;*/
-}
-
-#triathlon {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/tri2.png);
-}
-
-#badminton {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/Badminton.jpg);
-}
-
-#children-swimming {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/children.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
 }
 
 .hero-text-box {
@@ -59,10 +47,6 @@
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #3498db;
-}
-
-body {
-    visibility: hidden;
 }
 
 #carousel-buttons {

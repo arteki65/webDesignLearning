@@ -1,4 +1,4 @@
-function startApp() {
+/*function startApp() {
     'use strict';
 
 
@@ -36,4 +36,11 @@ function startApp() {
 document.addEventListener("DOMContentLoaded", function(event) { 
     //do work
     startApp();
-});
+});*/
+import './../css/style.css';
+import './../css/header.css';
+import './../css/components.css';
+
+import './../img/tmt_logo_small.png';
+
+console.log('working');
