@@ -1,0 +1,58 @@
+@import "const";
+
+.main-nav {
+    list-style: none;
+
+    li {
+        display: inline-block;
+        text-align: center;
+
+        &.left-nav-el {           
+            &:first-child {
+                float: left;
+                margin-right: 70px;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.right-nav-el {
+            &:first-child {
+                float: left;
+                margin-right: 100px;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        &.logo-col {
+            margin-top: 0;
+        }
+
+        a:link, a:visited {
+            padding: 8px 0;
+            text-decoration: none;
+            color: #FFF;
+            text-transform: uppercase;
+            font-size: 80%;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.2s;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        a:hover, a:active {
+            border-bottom: 2px solid @basic-blue;
+        }
+
+        img.nav-logo {
+            height: 100px;
+            width: auto;
+            margin-top: 10px;
+        }
+    }
+}

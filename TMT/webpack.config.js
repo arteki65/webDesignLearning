@@ -16,6 +16,14 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.less$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'less-loader'
+                ]
+            },
+            {
                 test: /\.css$/,
                 use: [
                     'style-loader',
@@ -29,9 +37,9 @@ module.exports = {
                 ]
             },
             {
-                test: /\.html$/,
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
-                    'html-loader'
+                    'file-loader'
                 ]
             }
         ]
