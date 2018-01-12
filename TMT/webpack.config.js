@@ -8,6 +8,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist'])
     ],
+    devtool: 'inline-source-map',
     output: {
         filename: 'app.bundle.js',
         path: distPath,
@@ -41,6 +42,13 @@ module.exports = {
                 use: [
                     'file-loader'
                 ]
+            },
+            {
+                test: /\.js$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader'
+                }
             }
         ]
     }

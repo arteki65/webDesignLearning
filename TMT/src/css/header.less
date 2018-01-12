@@ -19,8 +19,27 @@ header {
     position: absolute;
     width: 100%;
     bottom: 25px;
-    
+
     h1 {
         text-align: center;
+    }
+}
+
+#fb-link {
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+
+    a:link,
+    a:visited {
+        opacity: 1.0;
+        transition: opacity 0.2s;
+        text-decoration: none;
+    }
+    
+    a:hover,
+    a:active {
+        opacity: 0.8;
+        cursor: pointer;
     }
 }
