@@ -1,33 +1,16 @@
 @import "const";
 
-.main-nav {
+ul.main-nav {
     list-style: none;
+
+    div.li-flex-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
 
     li {
         display: inline-block;
         text-align: center;
-
-        &.left-nav-el {           
-            &:first-child {
-                float: left;
-                margin-right: 70px;
-            }
-
-            &:last-child {
-                float: right;
-            }
-        }
-
-        &.right-nav-el {
-            &:first-child {
-                float: left;
-                margin-right: 100px;
-            }
-
-            &:last-child {
-                float: right;
-            }
-        }
 
         &.logo-col {
             margin-top: 0;
