@@ -5,7 +5,10 @@ const webpack = require('webpack');
 const distPath = path.join(__dirname, './dist');
 
 module.exports = {
-    entry: './src/js/app.js',
+    entry: {
+        app: './src/js/app.js',
+        style: './src/js/style.js'
+    },
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new webpack.ProvidePlugin({
@@ -16,7 +19,7 @@ module.exports = {
     ],
     devtool: 'inline-source-map',
     output: {
-        filename: 'app.bundle.js',
+        filename: '[name].bundle.js',
         path: distPath,
         publicPath: './dist/'
     },
