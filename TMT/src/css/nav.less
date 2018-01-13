@@ -2,12 +2,10 @@
 
 ul.main-nav {
     list-style: none;
-
-    div.li-flex-wrapper {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
 
     li {
         display: inline-block;
@@ -26,7 +24,6 @@ ul.main-nav {
             border-bottom: 2px solid transparent;
             transition: border-bottom 0.2s;
             display: inline-block;
-            margin-top: 20px;
         }
 
         a:hover, a:active {
@@ -47,6 +44,17 @@ nav.sticky {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px @shadow-color;
+    z-index: 9999;
+
+    a:link, a:visited {
+        color: @basic-font-color !important;
+        padding: 8px 0 13px 0 !important;
+    }
+    
+    ul.main-nav {
+        margin-top: 7px;
+    }
 }
 
 #about-us {

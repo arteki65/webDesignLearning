@@ -1,12 +1,18 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const webpack = require('webpack');
 
 const distPath = path.join(__dirname, './dist');
 
 module.exports = {
     entry: './src/js/app.js',
     plugins: [
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin(['dist']),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery'
+        })
     ],
     devtool: 'inline-source-map',
     output: {
