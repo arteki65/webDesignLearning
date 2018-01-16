@@ -1,16 +1,25 @@
 const path = require('path');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const webpack = require('webpack');
 
 const distPath = path.join(__dirname, './dist');
 
 module.exports = {
-    entry: './src/js/app.js',
+    entry: {
+        app: './src/js/app.js',
+        style: './src/js/style.js'
+    },
     plugins: [
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin(['dist']),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery'
+        })
     ],
     devtool: 'inline-source-map',
     output: {
-        filename: 'app.bundle.js',
+        filename: '[name].bundle.js',
         path: distPath,
         publicPath: './dist/'
     },
